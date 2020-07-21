@@ -115,7 +115,7 @@ contacts = get_emails(contacts_file)
 #Sending mails to contacts from the emitter
 emitter = '''EMAIL FROM WHICH THE MAIL IS GOING TO BE SEND (MUST BE GMAIL)'''
 password = '''PASSWORD FOR THAT EMAIL'''
-send_mails(emitter,password,contacts,data_dict)
+send_mails(emitter,password,contacts,data_dict) 
 
 
 
