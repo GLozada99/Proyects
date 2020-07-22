@@ -103,7 +103,6 @@ for head,col in zip(headers,range(3)):
 
 sheet.row_dimensions[blank_row+1].height = float(60)#last column (description) must have bigger width
 
-
 #Save and close the excel file
 workbook.save(excel_filename)
 workbook.close()
